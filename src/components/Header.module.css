@@ -1,0 +1,27 @@
+.container{
+    margin-top: 10%;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 10px;
+
+   color: aliceblue;
+}
+
+.img_container {
+    margin:0 auto;
+    width: 208px; /* ajusta según sea necesario */
+    height: 100px; /* ajusta según sea necesario */
+   
+    border: 1px solid #000;
+  }
+  
+  .img_container img {
+    margin:0 auto;
+    width: 60%;
+    height: 60%;
+  }
+
+  .tex h2{
+    text-align: center;
+    margin: 0 auto;
+  }

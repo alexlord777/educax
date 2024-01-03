@@ -13,7 +13,7 @@ const Resultados = ({ id,kind }) => {
   
       // Realizar la solicitud POST
         
-      fetch('http://localhost:3000/service/final', {
+      fetch('https://educax.onrender.com/service/final', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

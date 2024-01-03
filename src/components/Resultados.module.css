@@ -1,0 +1,40 @@
+* {
+    color: aliceblue;
+}
+
+.titulo {
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.descripcion {
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.cards {
+    margin-top: 15px;
+    margin-left: 20px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+}
+.card {
+    text-decoration: none !important;
+    border: 1px solid #000;
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+    background-color: rgb(104, 103, 101);
+    transition: transform .5s ease;
+    color: #000;   
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
